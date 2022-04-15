@@ -27,7 +27,7 @@ func main() {
 		NumeroConta:   1}
 
 	contaDoBruno.Depositar(100)
-	contaDoBruno.Sacar(5000)
+	PagarBoleto(&contaDoBruno, 60)
 
 	fmt.Println(contaDoBruno.ObterSaldo())
 
